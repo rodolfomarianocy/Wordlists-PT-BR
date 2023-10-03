@@ -1,7 +1,5 @@
 # Wordlists-PT-BR
 Wordlists em PT-BR, desde nomes, sobrenomes, e em breve adicionaremos endpoints em português para fuzzing. Todas as informações foram extraídas de fontes públicas.
-
-
 ### Criar wordlist de emails concatenando `nome.sobrenome@domain.com`
 ```
 ./wlcreator.sh nomes.txt . sobrenomes.txt domain.com emails.txt
